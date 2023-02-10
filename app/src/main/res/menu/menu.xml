@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/musicListFragment"
+    android:title="List"
+    android:icon="@drawable/ic_baseline_queue_music_24"
+    app:cnb_backgroundColor="@color/transparent_purple"
+    app:cnb_iconColor="@color/white"
+    app:cnb_iconTintMode="src_in"
+    app:cnb_textColor="@color/white">
+
+</item>
+    <item
+        android:id="@+id/favoritesFragment"
+        android:title="List"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:cnb_backgroundColor="@color/transparent_purple"
+        app:cnb_iconColor="@color/white"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/white">
+
+    </item>
+</menu>
